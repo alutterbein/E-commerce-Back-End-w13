@@ -17,7 +17,7 @@ Product.init(
 
       // define columns pull convension from the seed
     },
-    Product_name: {
+    product_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -35,7 +35,7 @@ Product.init(
       type: DataTypes.INTEGER,
       references: {
         model: 'category',
-        key: 'category_id',
+        // do I need foreign key here?
       },
     }
 
