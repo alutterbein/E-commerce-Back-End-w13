@@ -16,7 +16,6 @@ Tag.init(
     Tag_name:{
       type: DataTypes.STRING,
       allowNull: false,
-      unique: false,
   }
 },
   {
